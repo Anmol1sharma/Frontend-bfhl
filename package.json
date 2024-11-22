@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "react-select": "^5.8.3",
     "web-vitals": "^2.1.4",
-    "serve": "^14.0.1"   // Add serve to dependencies
+    "serve": "^14.0.1"  // Removed the comment here
   },
   
   "scripts": {
