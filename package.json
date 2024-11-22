@@ -12,20 +12,24 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "react-select": "^5.8.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "serve": "^14.0.1"   // Add serve to dependencies
   },
+  
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",  // Modify start script to use serve
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
